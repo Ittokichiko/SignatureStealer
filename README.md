@@ -6,14 +6,8 @@ Beyond Stealing, Sig Steal goes a step further by Windows Internal to trick the 
 Obs: We can only clone a x32 binary to x32 , and x64 binary to x64
 use the sysInternals tool `sigcheck` to verify the signature and the format of the file
 
-# Compile without having to deal with dependencies, recommended!
-```
-g++ main.cpp steal.cpp -o sigsteal.exe -lws2_32 -lkernel32 -luser32
-```
-# Compile Binary (you will need to bring the .dll with you)
-```
-g++ main.cpp steal.cpp -o sigsteal.exe
-```
+> [!WARNING]
+> Please Compile using Visual Studio 2022 Pro with All Packages!!!
 
 # Usage
 ```
