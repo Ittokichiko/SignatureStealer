@@ -128,13 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\steal.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="steal.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\steal.h" />
+    <ClInclude Include="steal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+
 </Project>
